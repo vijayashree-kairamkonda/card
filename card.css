@@ -1,40 +1,70 @@
-.container{
+.container {
     display: flex;
     min-width: 350px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    background-color: ivory;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
-    max-width: 350px;
-    border: 1px solid grey;
-    border-radius: 5px;
+    max-width: 300px;
+    max-height: fit-content;
+    border: none ;
+    border-radius: 4px;
+    margin: 1rem;
+    background-color: aliceblue;
+    /* flex-wrap: wrap; */
+
 }
 
-.card-head{
-    margin-top: 2rem;
+.card-head {
+    margin: 0.5rem 0rem;
     font-size: 35px;
-    padding-left: 1rem;
+    padding: 0rem 0.2rem;
+    font-weight: 900;
 }
 
-.card-sub-head{
-    margin-bottom: 1.5rem;
-    padding-left: 1rem;
-
+.card-sub-head {
+    margin: 0.5rem 0rem;
+    padding: 0rem 0.2rem;
+    font-weight: bold;
 }
 
-.card-content{
-    padding-bottom: 1.5rem;
-    padding-left: 1rem;
+.card-img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 1rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
 }
 
 
-.btn-box{
+.btn-box {
     margin: 0.5rem;
 }
 
-.card-btn{
-    background-color:darkcyan;
+.icon-ltr{
+    margin: 0.5rem ;
+    border: none;
+    cursor: pointer;
+    background-color: aliceblue;
+    color:darkcyan;
+    padding: 0.5rem;
+    font-weight: 700;
+}
+
+.card-btn {
+    background-color: darkcyan;
     color: beige;
     border: none;
     padding: 0.5rem;
@@ -42,5 +72,21 @@
     cursor: pointer;
 }
 
+.card-three .card-header {
+    position: absolute;
+}
 
+.card-four .card-header {
+    position: absolute;
+    align-self: flex-end;
 
+}
+
+.card-four .card-img {
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.icon-box{
+    margin-left: auto;
+}
