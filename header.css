@@ -1,0 +1,30 @@
+.header {
+    background-color: cadetblue;
+    padding: 0.6rem;
+    display: flex;
+    max-width: 100%;
+    margin: 0.5rem;
+    
+}
+
+
+.name{
+    padding: 0rem 0.2rem;
+}
+
+
+.nav-icon {
+    display: inline;
+    padding: 0rem 0.2rem;
+    cursor: pointer;
+}
+
+.nav-img {
+    background-color: aquamarine;
+    padding: 0.2rem 0.2rem;
+    border-radius: 15px;
+}
+
+.nav {
+    margin-left: auto;
+}
