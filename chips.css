@@ -1,0 +1,31 @@
+.chip-input{
+   background-color:honeydew;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: fit-content;
+}
+
+.chip-component{
+    display: flex;
+    display: inline;
+    border: none;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 25px;
+    color: beige;
+    background-color: #8a2be2;
+    font-size:15px;
+    flex-wrap: wrap;
+}
+
+span{
+    padding-left:  0.2rem;
+    padding-right: 0.2rem;
+    background-color: beige;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
